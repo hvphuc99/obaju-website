@@ -1,0 +1,125 @@
+<div class="row">
+  <div class="col-lg-12">
+    <!-- breadcrumb-->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
+        <li aria-current="page" class="breadcrumb-item active">Giỏ hàng</li>
+      </ol>
+    </nav>
+  </div>
+  <div id="basket" class="col-lg-9">
+    <div class="box">
+      <form method="post" action="/checkout1">
+        <h1>Giỏ hàng</h1>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th colspan="2">Sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Giá</th>
+                <th colspan="2">Tổng</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#"><img src="/images/detailsquare.jpg" alt="White Blouse Armani"></a></td>
+                <td><a href="#">Áo trắng Armani</a></td>
+                <td>
+                  <input type="number" value="2" class="form-control">
+                </td>
+                <td>123 000đ</td>
+                <td>246 000đ</td>
+                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+              </tr>
+              <tr>
+                <td><a href="#"><img src="/images/basketsquare.jpg" alt="Black Blouse Armani"></a></td>
+                <td><a href="#">Áo đen Armani</a></td>
+                <td>
+                  <input type="number" value="1" class="form-control">
+                </td>
+                <td>200 000đ</td>
+                <td>200 000đ</td>
+                <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th colspan="5">Tổng</th>
+                <th colspan="2">446 000đ</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <!-- /.table-responsive-->
+        <div class="box-footer d-flex justify-content-between flex-column flex-lg-row">
+          <div class="right">
+            <button type="submit" class="btn btn-primary">Ghi thông tin gửi đơn hàng<i
+                class="fa fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- /.box-->
+    <div class="row same-height-row">
+      <div class="col-lg-3 col-md-6">
+        <div class="box same-height">
+          <h3>Có thể bạn thích những sản phẩm này</h3>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product same-height">
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front"><a href="detail.html"><img src="/images/product2.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="back"><a href="detail.html"><img src="/images/product2_2.jpg" alt="" class="img-fluid"></a>
+              </div>
+            </div>
+          </div><a href="detail.html" class="invisible"><img src="/images/product2.jpg" alt="" class="img-fluid"></a>
+          <div class="text">
+            <h3>Áo trắng</h3>
+            <p class="price">143 000đ</p>
+          </div>
+        </div>
+        <!-- /.product-->
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product same-height">
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front"><a href="detail.html"><img src="/images/product1.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="back"><a href="detail.html"><img src="/images/product1_2.jpg" alt="" class="img-fluid"></a>
+              </div>
+            </div>
+          </div><a href="detail.html" class="invisible"><img src="/images/product1.jpg" alt="" class="img-fluid"></a>
+          <div class="text">
+            <h3>Áo lông</h3>
+            <p class="price">143 000đ</p>
+          </div>
+        </div>
+        <!-- /.product-->
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="product same-height">
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front"><a href="detail.html"><img src="/images/product3.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="back"><a href="detail.html"><img src="/images/product3_2.jpg" alt="" class="img-fluid"></a>
+              </div>
+            </div>
+          </div><a href="detail.html" class="invisible"><img src="/images/product3.jpg" alt="" class="img-fluid"></a>
+          <div class="text">
+            <h3>Áo đen</h3>
+            <p class="price">143 000đ</p>
+          </div>
+        </div>
+        <!-- /.product-->
+      </div>
+    </div>
+  </div>
+  <!-- /.col-md-3-->
+</div>
