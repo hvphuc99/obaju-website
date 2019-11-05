@@ -50,4 +50,8 @@ router.get('/category', function(req, res, next) {
   res.render('category');
 });
 
+router.get('/update-profile', function(req, res, next) {
+  res.render('update-profile');
+});
+
 module.exports = router;
