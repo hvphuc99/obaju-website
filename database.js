@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 const db = new Sequelize('daki5pu27d7q49', 'ouqsljzeeyrsjz', '87623f77135eea50f40b19797fec300f3785019bb524ee2bb1efeec7ae8b8cec', {
-  host: 'localhost',
+  host: 'ec2-174-129-253-68.compute-1.amazonaws.com',
   dialect: 'postgres',
   pool: {
     max: 5,
