@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const db = new Sequelize('FCVSmartShopper', 'smartshopper', '123456', {
+const db = new Sequelize('daki5pu27d7q49', 'ouqsljzeeyrsjz', '87623f77135eea50f40b19797fec300f3785019bb524ee2bb1efeec7ae8b8cec', {
   host: 'localhost',
   dialect: 'postgres',
   pool: {
